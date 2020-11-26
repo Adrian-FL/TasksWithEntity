@@ -12,7 +12,7 @@ namespace FishFeedingTask
     {
 
         static FishFeedingContext Context = new FishFeedingContext();
-        // context este o instanta-obiect al clasei FishFeedingContext
+        
 
         static void Main(string[] args)
         {

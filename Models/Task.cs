@@ -10,8 +10,7 @@ namespace FishFeedingTask.Models
         public int Id { get; protected set; }
         public string Name { get; protected set; }
         public DateTime DueDate { get; protected set; }
-        // vreau sa vezi ce se afla in ele dar nu sa modifici - se foloseste public
-        // protected inseaman ca nu se poate modifica valoarea in Program.cs
+       
         public Task(string name, DateTime DueDate)
         {
             this.Name = name;
